@@ -1,0 +1,103 @@
+:root {
+    --primary: #111B54;
+    --light: #ffffff;
+    --grey: #efefef;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    color:#111B54 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh !important;
+    background-image:url(https://img.freepik.com/vector-gratis/fondo-geometrico-abstracto-estructura-metalica_52683-59421.jpg?w=826&t=st=1682388641~exp=1682389241~hmac=540c04aeb26e130f742150d29e33a28646d32016a2c82541a845b3e8f19ec71e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.imagen{
+    width: 20%;
+    min-width: 70px !important;
+    margin: 15px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tamDiv{
+    max-width: 500px;
+}
+.c-white{
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: none;
+}
+.bg-blue{ background-color: var(--primary) !important;}
+.bg-primary { background-color: var(--primary) !important; }
+
+.bg-light { background-color: var(--light) !important; }
+
+.bg-grey { background-color: var(--grey) !important; }
+
+.bg-mix { background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0); }
+
+.btn-primary {
+    background-color: var(--primary);
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+  
+#sidebar-container .logo{
+    padding: 0.875rem 1.25rem;
+}
+  
+#sidebar-container .menu {
+    width: 18rem;
+}
+
+#content {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.avatar {
+    max-width: 35px;
+}
+
+.btn-search {
+    right: 0;
+}
+
+.stat {
+    border-right: 1px solid var(--grey);
+}
+
+  
+@media (max-width: 768px) {
+    #sidebar-container {
+      display: none;
+    }
+    .stat {
+        border: 0;
+    }
+  }
+  
